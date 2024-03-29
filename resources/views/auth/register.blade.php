@@ -8,7 +8,7 @@
                 <a href="https://imgbb.com/" style="display: inline-block;"> <!-- Mengatur agar tautan dan gambar muncul dalam satu baris -->
                     <img src="https://i.ibb.co/pdB9CLS/1711590622632uhw6t9gc-removebg-preview.png" alt="1711590622632uhw6t9gc-removebg-preview" style="width: 200px; height: auto;" />
                 </a>
-    </div>
+        </div>
 
         <!-- Name -->
         <div>
