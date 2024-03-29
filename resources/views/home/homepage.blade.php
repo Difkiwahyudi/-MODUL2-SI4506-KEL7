@@ -65,7 +65,7 @@
     </div>
     <!-- slider_area_end -->
 
-    <!-- where_togo_area_start  -->
+    
     <div class="where_togo_area">
         <div class="container">
             <div class="row align-items-center">
