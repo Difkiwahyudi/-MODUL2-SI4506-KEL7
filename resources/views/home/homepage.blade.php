@@ -723,7 +723,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       <div class="modal-content">
         <div class="serch_form">
             <input type="text" placeholder="Search" >
-            <button type="submit">search</button>
+            <button type="submit">SEARCH</button>
         </div>
       </div>
     </div>
