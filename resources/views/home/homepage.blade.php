@@ -188,7 +188,7 @@
             </div>
         </div>
     </div>
-    <!-- popular_destination_area_end  -->
+    <!-- popular_destinon_area_end  -->
 
     <!-- newletter_area_start  -->
     <div class="newletter_area overlay">
