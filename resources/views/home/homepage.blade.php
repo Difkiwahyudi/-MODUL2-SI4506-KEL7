@@ -708,7 +708,7 @@
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!-- Link back to Colorlib can't be removed. Templatee is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                 </div>
@@ -723,7 +723,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       <div class="modal-content">
         <div class="serch_form">
             <input type="text" placeholder="Search" >
-            <button type="submit">search</button>
+            <button type="submit">SEARCH</button>
         </div>
       </div>
     </div>
