@@ -65,7 +65,7 @@
     </div>
     <!-- slider_area_end -->
 
-    <!-- where_togo_area_start  -->
+    
     <div class="where_togo_area">
         <div class="container">
             <div class="row align-items-center">
@@ -78,18 +78,25 @@
                     <div class="search_wrap">
                         <form class="search_form" action="#">
                             <div class="input_field">
+                                <style>
+                                    .search_wrap .input_field input[type="text"] {
+                                        width: 600px; 
+                                        height: 50px; 
+                                        padding: 10px; 
+                                    }
+                                </style>
                                 <input type="text" placeholder="Where to go?">
                             </div>
-                            <div class="input_field">
+                            {{-- <div class="input_field">
                                 <input id="datepicker" placeholder="Date">
-                            </div>
-                            <div class="input_field">
+                            </div> --}}
+                            {{-- <div class="input_field">
                                 <select>
                                     <option data-display="Travel type">Travel type</option>
                                     <option value="1">Some option</option>
                                     <option value="2">Another option</option>
                                 </select>
-                            </div>
+                            </div> --}}
                             <div class="search_btn">
                                 <button class="boxed-btn4 " type="submit" >Search</button>
                             </div>
@@ -99,7 +106,6 @@
             </div>
         </div>
     </div>
-    <!-- where_togo_area_end  -->
     
     <!-- popular_destination_area_start  -->
     <div class="popular_destination_area">
@@ -702,7 +708,7 @@
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!-- Link back to Colorlib can't be removed. Templatee is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                 </div>
@@ -717,7 +723,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       <div class="modal-content">
         <div class="serch_form">
             <input type="text" placeholder="Search" >
-            <button type="submit">search</button>
+            <button type="submit">SEARCH</button>
         </div>
       </div>
     </div>
