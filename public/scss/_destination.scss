@@ -76,7 +76,7 @@
 }
 
 
-// destination_banner_wrap 
+// destination_banner_wrap Lengkuas
 .destination_banner_wrap{
     background-image: url(../img/banner/destination.png);
     padding: 340px 0;
@@ -114,6 +114,46 @@
         }
     }
 }
+
+// destination_banner_wrap Pura Besakih
+.destination_banner_wrap_purabesakih {
+    background-image: url(../img/banner/purabesakih.png); 
+    padding: 340px 0;
+    background-size: cover;
+    background-position: center center;
+    @media #{$mobile_device} {
+        padding: 150px 0;
+    }
+    @media #{$tablet_device} {
+        padding: 250px 0;
+    }
+    &.overlay:before {
+        opacity: .3;
+    }
+    .destination_text {
+        h3 {
+            font-size: 80px;
+            line-height: 90px;
+            color: #fff;
+            font-family: $font3;
+            margin-bottom: 0;
+            @media #{$mobile_device} {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            @media #{$tablet_device} {
+                font-size: 60px;
+                line-height: 70px;
+            }
+        }
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+}
+
 
 .destination_details_info{
     padding-bottom: 150px;
@@ -193,3 +233,4 @@
         }
     }
 }
+

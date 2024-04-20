@@ -32,3 +32,11 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/wisata_list_inf', function () {
+    return view('trip_information.wisata_list_inf');
+});
+
+Route::get('/wisata_list_inf_purabesakih', function () {
+    return view('trip_information.wisata_list_inf_purabesakih');
+});
