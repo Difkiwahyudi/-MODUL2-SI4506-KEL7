@@ -77,7 +77,7 @@
                                             <li><a class="" href="travel_destination.html">Destination</a></l/li>
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                        <li><a href="destination_details.html">Destinations details</a></li>
+                                                        <li><a href="destination_details.html">Daftar Tempat Wisata</a></li>
                                                         <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li>
@@ -123,14 +123,18 @@
         </div>
     </header>
     <!-- header-end -->
-    <div class="destination_banner_wrap overlay">
-        <div class="destination_text text-center">
-        <h3>Pulau Lengkuas, Belitung</h3>
-        <p style="text-align: center;"> 
-            Selamat Datang di Pulau Lengkuas, Belitung!
-            Temukan Keindahan Tersembunyi di Ujung Pulau dan Jelajahi Keajaibannya!!!
-        </p>
+    <div>
+        <div class="destination_banner_wrap overlay" style="position: relative;">
+            <div class="destination_text text-center" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(../img/banner/situpatenggang.png); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+                <h3>Situ Patenggang</h3>
+               
+                    <p style="text-align: center;"> 
+                       
+                    </p>
+            </div>
         </div>
+
+
     </div>
 
 
@@ -147,7 +151,7 @@
                     <div class="video_wrap text-center">
                         <h3>Tonton Tempat Wisata Ini!</h3>
                         <div class="video_icon">
-                            <a class="popup-video video_play_button" href="https://www.youtube.com/watch?v=eEv_STHo9Oo">
+                            <a class="popup-video video_play_button" href="https://www.youtube.com/watch?v=bolR03xFZNU">
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
@@ -165,9 +169,11 @@
     <!-- Informasi Wisata -->
 </div>
 
-<!-- Informasi Wisata -->
-<div class="destination_details_info">
-    <!-- Informasi Wisata -->
+<div class="container">
+    <div class ="text-align text-center">
+        <h3>Lokasi Wisata</h3>
+
+    </div>
 </div>
 
 <!-- Peta OpenStreetMap -->
@@ -176,13 +182,13 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="map_wrap">
-                    <iframe width="100%" height="450" src="https://www.openstreetmap.org/export/embed.html?bbox=107.7217,-2.5615,107.6608,-2.7110&amp;layer=mapnik"></iframe>
+                    <iframe width="100%" height="450" src="https://www.openstreetmap.org/export/embed.html?bbox=107.3560,-7.1630,107.3860,-7.1664&amp;layer=mapnik&amp;marker=-7.1630,107.3560"></iframe>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<!-- Peta OpenStreetMap -->
 
 
     <div class="destination_details_info">
@@ -192,27 +198,33 @@
                     <div class="destination_info">
                         <h3>Informasi Wisata</h3>
                         <p>
-                            Bergaya megah di ujung utara Pulau Belitung, Mercusuar Lengkuas memikat hati dengan keindahan alamnya yang menakjubkan. Dari puncak mercusuar, Anda akan disuguhi panorama laut yang tenang dan pantai berpasir putih. Jelajahi kehidupan bawah laut yang berwarna-warni dengan menyelam atau snorkeling di sekitar terumbu karang yang indah. Saksikan matahari terbenam yang memukau dan rasakan kedamaian yang hanya bisa ditemukan di Lengkuas. 
-                            
-                            Selamat datang di destinasi wisata alam yang mengesankan di Pulau Belitung.
+                            Situ Patenggang adalah sebuah danau alami yang indah terletak di daerah Ciwidey, Bandung. Dikelilingi oleh hamparan hijau kebun teh dan pepohonan pinus, Situ Patenggang menawarkan pesona alam yang menakjubkan bagi para pengunjungnya. Danau yang jernih dan udara segar menjadikan tempat ini cocok untuk bersantai sambil menikmati keindahan alam yang memukau.
                         </p>
-                        <div class="single_destination">
-                            <h4>Penginapan</h4>
-                            <p>Biaya sewa kamar yang ditawarkan bervariasi, mulai ratusan ribu hingga jutaan rupiah sesuai dengan jenis hotelnya. Waktu yang dibutuhkan menuju Pantai Tanjung Kelayang dari Tanjung Pandan kurang lebih 30 menit. Pantai Tanjung Kelayang merupakan lokasi untuk menyeberang ke Pulau Lengkuas.</p>
+                    <div class="single_destination">
+                        <h4>Daya Tarik Utama:</h4>
+                        <p>
+                            Situ Patenggang menampilkan keindahan alam yang memesona dengan pemandangan danau yang tenang dan indah. Pengunjung dapat menikmati aktivitas seperti berperahu di danau atau sekadar bersantai di tepi danau sambil menikmati panorama sekitarnya.
+
+                            Selain itu, Situ Patenggang juga memiliki Pulau Asmara yang menjadi ikonik. Pulau kecil ini dapat diakses dengan perahu dan sering menjadi lokasi foto yang populer bagi pengunjung.
+
+                            Area sekitar danau juga cocok untuk berjalan-jalan santai atau berkemah di tengah alam yang tenang dan damai.
+                        </p>
+                    </div>
+
+
+                        <div class="single_destination" class="paragraphs">
+                            <h4>Harga</h4>
+                            <p>
+                                    Situ Patenggang menawarkan pengalaman wisata alam yang menakjubkan dengan harga tiket yang terjangkau. Pengunjung dapat menikmati keindahan danau, berkeliling dengan perahu tradisional, menjelajahi Pulau Asmara, dan bersantai di sekitar area danau dengan membayar tiket masuk sebesar 180 ribu rupiah per orang.</p>
+                            
+                            <p>Tiket masuk yang terjangkau ini memungkinkan pengunjung untuk menikmati semua daya tarik Situ Patenggang tanpa harus khawatir akan biaya yang tinggi. Dengan harga yang relatif murah, Situ Patenggang menjadi destinasi wisata yang populer bagi wisatawan lokal maupun mancanegara yang ingin menikmati keindahan alam Bandung dengan budget yang terbatas.
+
+                            Dengan harga tiket yang hanya 180 ribu rupiah, pengunjung dapat menikmati pengalaman wisata yang tak terlupakan di Situ Patenggang, menjadikannya pilihan yang tepat untuk menghabiskan waktu bersama keluarga atau teman-teman.
+                        </p>
+                            
                         </div>
 
-                        <div class="single_destination">
-                            <h4>Cara Menuju Pulau Lengkuas</h4>
-                            <p>Perjalanan menuju Pulau Lengkuas akan dicapai menggunakan kapal motor dari Pantai Tanjung Kelayang.
-
-                            </p>
-                        </div>
-
-                        <div class="single_destination">
-                            <h4>Sewa kapal ke Pulau Lengkuas</h4>
-                            <p>dengan biaya mulai Rp 500.000 yang dapat memuat hingga 10 penumpang. Jarak tempuh antara Pantai Tanjung Kelayang menuju Pulau Lengkuas sekitar 4 mil atau sekitar 6,4 kilometer dengan waktu tempuh kurang lebih 40 menit pelayaran.</p>
-                        </div>
-                        
+                      
                         
                     </div>
                     <div class="bordered_1px"></div>
@@ -277,7 +289,7 @@
                             <a href="#" class="prise">Rp350.000</a>
                         </div>
                         <div class="place_info">
-                            <a href="#"><h3>Pulau Lengkuas</h3></a>
+                            <a href="wisata_list_inf_lengkuas"><h3>Pulau Lengkuas</h3></a>
                             <p>Kepulauan Bangka Belitung</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
@@ -300,7 +312,7 @@
                     <div class="single_place">
                         <div class="thumb">
                             <img src="img/place/2.png" alt="">
-                            <a href="#" class="prise">Rp45.000</a>
+                            <a href="#" class="prise">Rp80.000</a>
                         </div>
                         <div class="place_info">
                             <a href="wisata_list_inf_purabesakih"><h3>Pura Besakih</h3></a>
@@ -326,10 +338,10 @@
                     <div class="single_place">
                         <div class="thumb">
                             <img src="img/place/3.png" alt="">
-                            <a href="#" class="prise">Rp25.000</a>
+                            <a href="#" class="prise">Rp180.000</a>
                         </div>
                         <div class="place_info">
-                            <a href="#"><h3>Situ Patenggang</h3></a>
+                            <a href="wisata_list_inf_situpattenggang"><h3>Situ Patenggang</h3></a>
                             <p>Jawa Barat</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
@@ -418,14 +430,14 @@
                                 Popular destination
                             </h3>
                             <ul class="links double_links">
-                                <li><a href="#">Indonesia</a></li>
-                                <li><a href="#">America</a></li>
-                                <li><a href="#">India</a></li>
-                                <li><a href="#">Switzerland</a></li>
-                                <li><a href="#">Italy</a></li>
-                                <li><a href="#">Canada</a></li>
-                                <li><a href="#">Franch</a></li>
-                                <li><a href="#">England</a></li>
+                                <li><a href="#">Lengkuas</a></li>
+                                <li><a href="#">Pura Besakih</a></li>
+                                <li><a href="#">Situ Patenggang</a></li>
+                                <li><a href="#">Bromo</a></li>
+                                <li><a href="#">Borobudur</a></li>
+                                <li><a href="#">Pulau Dewata</a></li>
+                                <li><a href="#">Danau Toba</a></li>
+                                <li><a href="#">Taman Komodo</a></li>
                             </ul>
                         </div>
                     </div>
@@ -477,9 +489,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                           
                         </p>
                     </div>
                 </div>
