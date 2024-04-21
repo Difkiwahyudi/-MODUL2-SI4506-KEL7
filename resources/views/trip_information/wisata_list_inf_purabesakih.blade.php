@@ -27,6 +27,25 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .video_area {
+            width: 100%; 
+            height: 500px; /
+            
+        }
+
+       
+        @media (max-width: 768px) {
+            .video_area {
+                height: 300px; 
+            }
+        }
+    </style>
+     <style>
+        p {
+            text-align: justify;
+        }
+    </style>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -45,7 +64,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt="">
+                                        <img src="img/logo.png" alt="" style="width: 100px; height: auto;">
                                     </a>
                                 </div>
                             </div>
@@ -76,7 +95,7 @@
                             <div class="col-xl-4 col-lg-4 d-none d-lg-block">
                                 <div class="social_wrap d-flex align-items-center justify-content-end">
                                     <div class="number">
-                                        <p> <i class="fa fa-phone"></i> +62 812 1234 123</p>
+                                        <p> <i class="fa fa-phone"></i> +62 812 1234 1234</p>
                                     </div>
                                     <div class="social_links d-none d-xl-block">
                                         <ul>
@@ -104,173 +123,115 @@
         </div>
     </header>
     <!-- header-end -->
-
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center">
-                                <h3>Indonesia</h3>
-                                <p>Pixel perfect design with awesome contents</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center">
-                                <h3>Australia</h3>
-                                <p>Pixel perfect design with awesome contents</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_3 overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center">
-                                <h3>Switzerland</h3>
-                                <p>Pixel perfect design with awesome contents</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div>
+        <div class="destination_banner_wrap overlay" style="position: relative;">
+            <div class="destination_text text-center" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(../img/banner/purabesakih.png); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+                <h3>Pura Besakih</h3>
+               
+                    <p style="text-align: center;"> 
+                       
+                    </p>
             </div>
         </div>
 
-    </div>
-    <!-- slider_area_end -->
 
-    <!-- where_togo_area_start  -->
-    <div class="where_togo_area">
+    </div>
+
+
+
+    <h1>
+        
+    </h1>
+       
+    <!-- Buat video  -->
+    <div class="video_area video_bg overlay">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3">
-                    <div class="form_area">
-                        <h3>Where you want to go?</h3>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="search_wrap">
-                        <form class="search_form" action="#">
-                            <div class="input_field">
-                                <input type="text" placeholder="Where to go?">
-                            </div>
-                            <div class="input_field">
-                                <input id="datepicker" placeholder="Date">
-                            </div>
-                            <div class="input_field">
-                                <select>
-                                    <option data-display="Travel type">Travel type</option>
-                                    <option value="1">Some option</option>
-                                    <option value="2">Another option</option>
-                                </select>
-                            </div>
-                            <div class="search_btn">
-                                <button class="boxed-btn4 " type="submit" >Search</button>
-                            </div>
-                        </form>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video_wrap text-center">
+                        <h3>Tonton Tempat Wisata Ini!</h3>
+                        <div class="video_icon">
+                            <a class="popup-video video_play_button" href="https://www.youtube.com/watch?v=G2zwNsRX85Y">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- where_togo_area_end  -->
     
-    <!-- popular_destination_area_start  -->
-    <div class="popular_destination_area">
+        <!-- Buat video  -->
+
+    <!-- Informasi Wisata -->
+<!-- Informasi Wisata -->
+<div class="destination_details_info">
+    <!-- Informasi Wisata -->
+</div>
+
+<div class="container">
+    <div class ="text-align text-center">
+        <h3>Lokasi Wisata</h3>
+
+    </div>
+</div>
+
+<!-- Peta OpenStreetMap -->
+<div class="openstreetmap_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="map_wrap">
+                    <iframe width="100%" height="450" src="https://www.openstreetmap.org/export/embed.html?bbox=115.4615,-8.3506,115.4702,-8.3424&amp;layer=mapnik&amp;marker=-8.3465,115.4659"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Peta OpenStreetMap -->
+
+
+    <div class="destination_details_info">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb_70">
-                        <h3>Popular Destination</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-8 col-md-9">
+                    <div class="destination_info">
+                        <h3>Informasi Wisata</h3>
+                        <p>
+                            Pura Besakih adalah salah satu situs suci terbesar dan paling penting di Bali. Terletak di lereng Gunung Agung, pura ini adalah kompleks pura Hindu terbesar di pulau tersebut. Terdiri dari lebih dari 80 pura yang tersebar di seluruh kawasan, Pura Besakih dianggap sebagai "Pura Agung" atau "Pura Agung Besakih," yang merupakan tempat ibadah utama bagi umat Hindu Bali. Pura Besakih juga dikenal sebagai "Pura Penataran Agung Besakih," yang secara harafiah berarti "Pura Penataran Agung di kaki Gunung Agung."
+                        </p>
                     <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/1.png" alt="">
-                        </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html">  07 Places</a> </p>
-                            
-                        </div>
+                        <h4>Daya Tarik Utama:</h4>
+                        <p>Arsitektur Megah, Pura Besakih menampilkan arsitektur Hindu Bali yang indah dan khas, dengan bangunan-bangunan megah dan gerbang kuno.
+
+                            Selain itu terdapat pemandangan Gunung Agung yang terletak di lereng Gunung Agung, pura ini menawarkan pemandangan indah pegunungan dan lembah Bali.
+
+                            Pura Besakih juga menjadi tempat acara keagamaan, tempat ini sering menjadi tuan rumah untuk berbagai upacara keagamaan dan ritual Hindu, memberikan pengalaman budaya yang mendalam kepada pengunjung.
+
+
+                        </p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/2.png" alt="">
+
+                        <div class="single_destination">
+                            <h4>Tips Penting</h4>
+                            <p>1) Berpakaian Sopan: Karena merupakan tempat ibadah, pastikan untuk mengenakan pakaian yang sopan saat mengunjungi Pura Besakih.</p>
+                            <p>2) Hormati Tradisi: Penting untuk menghormati tradisi dan kebudayaan setempat, seperti berbicara dengan suara pelan dan menghindari perilaku yang mengganggu.</p>
+                            <p>3) Periksa Jadwal Acara: Jika Anda tertarik untuk menyaksikan upacara keagamaan, pastikan untuk memeriksa jadwal acara terlebih dahulu agar Anda dapat mengatur kunjungan Anda dengan baik.</p>
                         </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html">  03 Places</a> </p>
-                            
-                        </div>
+
+                      
+                        
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/3.png" alt="">
-                        </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">America <a href="travel_destination.html">  10 Places</a> </p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/4.png" alt="">
-                        </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html">  02 Places</a> </p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/5.png" alt="">
-                        </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html">  02 Places</a> </p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination">
-                        <div class="thumb">
-                            <img src="img/destination/6.png" alt="">
-                        </div>
-                        <div class="content">
-                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html">  05 Places</a> </p>
-                            
-                        </div>
-                    </div>
+                    <div class="bordered_1px"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- popular_destination_area_end  -->
 
+    
+
+
+    
     <!-- newletter_area_start  -->
     <div class="newletter_area overlay">
         <div class="container">
@@ -279,9 +240,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5">
                             <div class="newsletter_text">
-                                <h4>Subscribe Our Newsletter</h4>
-                                <p>Subscribe newsletter to get offers and about
-                                    new places to discover.</p>
+                                <h4>Apa pendapatmu tentang tempat ini?</h4>
+                                
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -289,12 +249,12 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-9 col-md-8">
                                         <div class="newsletter_field">
-                                            <input type="email" placeholder="Your mail" >
+                                            <input type="email" placeholder="Tuliskan pendapatmu" >
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-4">
                                         <div class="newsletter_btn">
-                                            <button class="boxed-btn4 " type="submit" >Subscribe</button>
+                                            <button class="boxed-btn4 " type="submit" >Kirim</button>
                                         </div>
                                     </div>
                                 </div>
@@ -312,8 +272,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb_70">
-                        <h3>Popular Places</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+                        <h3>Sedang Ramai</h3>
                     </div>
                 </div>
             </div>
@@ -322,11 +281,11 @@
                     <div class="single_place">
                         <div class="thumb">
                             <img src="img/place/1.png" alt="">
-                            <a href="#" class="prise">$500</a>
+                            <a href="#" class="prise">Rp350.000</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
-                            <p>United State of America</p>
+                            <a href="wisata_list_inf_lengkuas"><h3>Pulau Lengkuas</h3></a>
+                            <p>Kepulauan Bangka Belitung</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
                                      <i class="fa fa-star"></i> 
@@ -348,11 +307,11 @@
                     <div class="single_place">
                         <div class="thumb">
                             <img src="img/place/2.png" alt="">
-                            <a href="#" class="prise">$500</a>
+                            <a href="#" class="prise">Rp80.000</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>Korola Megna</h3></a>
-                            <p>United State of America</p>
+                            <a href="#"><h3>Pura Besakih</h3></a>
+                            <p>Bali</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
                                      <i class="fa fa-star"></i> 
@@ -374,11 +333,11 @@
                     <div class="single_place">
                         <div class="thumb">
                             <img src="img/place/3.png" alt="">
-                            <a href="#" class="prise">$500</a>
+                            <a href="#" class="prise">Rp180.000</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>London</h3></a>
-                            <p>United State of America</p>
+                            <a href="wisata_list_inf_situpattenggang"><h3>Situ Patenggang</h3></a>
+                            <p>Jawa Barat</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
                                      <i class="fa fa-star"></i> 
@@ -393,187 +352,12 @@
                                     <a href="#">5 Days</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/4.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>Miami Beach</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/5.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/6.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>Saintmartine Iceland</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="more_place_btn text-center">
-                        <a class="boxed-btn4" href="#">More Places</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    
-
-
-    <div class="travel_variation_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_travel text-center">
-                        <div class="icon">
-                            <img src="img/svg_icon/1.svg" alt="">
-                        </div>
-                        <h3>Comfortable Journey</h3>
-                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_travel text-center">
-                        <div class="icon">
-                            <img src="img/svg_icon/2.svg" alt="">
-                        </div>
-                        <h3>Luxuries Hotel</h3>
-                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_travel text-center">
-                        <div class="icon">
-                            <img src="img/svg_icon/3.svg" alt="">
-                        </div>
-                        <h3>Travel Guide</h3>
-                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- testimonial_area  -->
-    <div class="testimonial_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="single_testmonial text-center">
-                                        <div class="author_thumb">
-                                            <img src="img/testmonial/author.png" alt="">
-                                        </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                                        <div class="testmonial_author">
-                                            <h3>- Micky Mouse</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="single_testmonial text-center">
-                                        <div class="author_thumb">
-                                            <img src="img/testmonial/author.png" alt="">
-                                        </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                                        <div class="testmonial_author">
-                                            <h3>- Tom Mouse</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                                      
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /testimonial_area  -->
-
-
-    
-
-
 
     <footer class="footer">
         <div class="footer_top">
@@ -641,14 +425,14 @@
                                 Popular destination
                             </h3>
                             <ul class="links double_links">
-                                <li><a href="#">Indonesia</a></li>
-                                <li><a href="#">America</a></li>
-                                <li><a href="#">India</a></li>
-                                <li><a href="#">Switzerland</a></li>
-                                <li><a href="#">Italy</a></li>
-                                <li><a href="#">Canada</a></li>
-                                <li><a href="#">Franch</a></li>
-                                <li><a href="#">England</a></li>
+                                <li><a href="#">Lengkuas</a></li>
+                                <li><a href="#">Pura Besakih</a></li>
+                                <li><a href="#">Situ Patenggang</a></li>
+                                <li><a href="#">Bromo</a></li>
+                                <li><a href="#">Borobudur</a></li>
+                                <li><a href="#">Pulau Dewata</a></li>
+                                <li><a href="#">Danau Toba</a></li>
+                                <li><a href="#">Taman Komodo</a></li>
                             </ul>
                         </div>
                     </div>
@@ -700,9 +484,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            
                         </p>
                     </div>
                 </div>
@@ -727,7 +509,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
 
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script> -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    
+    <script>
+        $(document).ready(function() {
+            $( "#datepicker" ).datepicker();
+        });
+    </script> -->
+
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -747,10 +536,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
-    <script src="js/slick.min.js"></script>
-   
 
-    
     <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
@@ -758,16 +544,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
 
-
     <script src="js/main.js"></script>
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
-        });
-    </script>
+    
 </body>
 
 </html>
