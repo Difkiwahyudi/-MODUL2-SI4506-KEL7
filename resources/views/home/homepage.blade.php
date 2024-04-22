@@ -191,7 +191,7 @@
     <!-- popular_destinon_area_end  -->
 
     <!-- newletter_area_start  -->
-    <div class="newletter_area overlay">
+    {{-- <div class="newletter_area overlay">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10">
@@ -223,7 +223,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- newletter_area_end  -->
 
     <div class="popular_places_area">
@@ -397,25 +397,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="more_place_btn text-center">
-                        <a class="boxed-btn4" href="#">More Places</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="video_area video_bg overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="video_wrap text-center">
-                        <h3>Enjoy Video</h3>
-                        <div class="video_icon">
-                            <a class="popup-video video_play_button" href="https://www.youtube.com/watch?v=f59dDEk57i0">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
+                        <a class="boxed-btn4" href="">More Places</a>
                     </div>
                 </div>
             </div>
