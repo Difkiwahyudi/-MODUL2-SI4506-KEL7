@@ -32,3 +32,15 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/wisata_list_inf_lengkuas', function () {
+    return view('trip_information.wisata_list_inf_lengkuas');
+});
+
+Route::get('/wisata_list_inf_purabesakih', function () {
+    return view('trip_information.wisata_list_inf_purabesakih');
+});
+
+Route::get('/wisata_list_inf_situpattenggang', function () {
+    return view('trip_information.wisata_list_inf_situpattenggang');
+});
