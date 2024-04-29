@@ -32,7 +32,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-
 require __DIR__.'/auth.php';
 
 Route::get('/wisata_list_inf_lengkuas', function () {
@@ -46,3 +45,6 @@ Route::get('/wisata_list_inf_purabesakih', function () {
 Route::get('/wisata_list_inf_situpattenggang', function () {
     return view('trip_information.wisata_list_inf_situpattenggang');
 });
+
+##Routing create travel journey
+Route::get('/create_traveljourney', [HomeController::class, 'create_traveljourney']);

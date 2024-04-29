@@ -39,4 +39,10 @@ class HomeController extends Controller
         return view('home.homepage');
     }
    
+    ##Travel journey create
+    public function create_traveljourney()
+    {
+        return view('home.create_traveljourney');
+
+    }
 }

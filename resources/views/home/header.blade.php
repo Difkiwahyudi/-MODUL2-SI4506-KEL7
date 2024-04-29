@@ -9,7 +9,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7">
+                <div class="col-xl-8 col-lg-8">
                     <div class="main-menu  d-none d-lg-block">
                         <nav>
                             <ul id="navigation">
@@ -22,10 +22,11 @@
                                             <li><a href="elements.html">elements</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                <li><a href="#">Travel Journey<i class="ti-angle-down"></i></a>
                                     <ul class="submenu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="single-blog.html">single-blog</a></li>
+                                        <li><a href="blog.html">Travel Journey</a></li>
+                                        {{-- ini untuk create travel Journey --}}
+                                        <li><a href="{{url('create_traveljouney')}}">Create Travel Journey</a></li>
                                     </ul>
                                 </li>
 
