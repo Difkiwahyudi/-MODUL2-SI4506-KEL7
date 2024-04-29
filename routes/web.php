@@ -44,3 +44,5 @@ Route::get('/wisata_list_inf_purabesakih', function () {
 Route::get('/wisata_list_inf_situpattenggang', function () {
     return view('trip_information.wisata_list_inf_situpattenggang');
 });
+
+Route::get('create_traveljourney',[HomeController::class,'create_traveljourney']);
