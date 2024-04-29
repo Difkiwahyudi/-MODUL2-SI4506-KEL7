@@ -32,6 +32,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
-
-//Localization Route
-Route::get("locale/{lange}",[LocalizationController::class,'setLang']);
