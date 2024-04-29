@@ -31,4 +31,19 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+use App\Http\Controllers\PlaceController;
+
+Route::get('/search', [PlaceController::class, 'search'])->name('search');
+
+Route::get('/places', [PlaceController::class, 'index']);
+
+Route::get('/search-places', [PlaceController::class, 'apiSearch'])->name('api.search.places');
+
+Route::delete('/remove-history', [PlaceController::class, 'removeHistory'])->name('remove.history');
+
+Route::get('/output', function () {
+    $searchResult = session('search_result', []);
+    return view('output', compact('searchResult'));
+})->name('output');
+
 require __DIR__.'/auth.php';
