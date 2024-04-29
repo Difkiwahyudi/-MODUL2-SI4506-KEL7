@@ -25,7 +25,7 @@ public function apiSearch(Request $request)
 
     $filteredPlaces = $placesCollection->flatMap(function ($provinsi) use ($query) {
         return collect($provinsi['wisata'])->filter(function ($place) use ($query) {
-            return false !== stripos($place['namaa'], $query);
+            return false !== stripos($place['nama'], $query);
         });
     })->values();
 
