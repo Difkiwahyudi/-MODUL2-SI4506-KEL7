@@ -22,10 +22,10 @@
                                             <li><a href="elements.html">elements</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                <li><a href="#">Travel journey <i class="ti-angle-down"></i></a>
                                     <ul class="submenu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="single-blog.html">single-blog</a></li>
+                                        <li><a href="blog.html">Travel Journey</a></li>
+                                        <li><a href="{{url('create_traveljourney')}}">Create Travel Journey</a></li>
                                     </ul>
                                 </li>
 

@@ -1,4 +1,12 @@
 <x-guest-layout>
+
+    <div class="flex items-center justify-center mt-4"> <!-- Mengatur logo di tengah -->
+        <a  style="display: inline-block;"> <!-- Mengatur agar tautan dan gambar muncul dalam satu baris -->
+            <img src="https://i.ibb.co/pdB9CLS/1711590622632uhw6t9gc-removebg-preview.png" alt="1711590622632uhw6t9gc-removebg-preview" style="width: 200px; height: auto;" />
+        </a>
+    </div>
+
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
