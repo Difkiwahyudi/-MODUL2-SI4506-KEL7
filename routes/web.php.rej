@@ -1,0 +1,9 @@
+diff a/routes/web.php b/routes/web.php	(rejected hunks)
+@@ -31,5 +31,4 @@
+     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+ });
+ 
+-require __DIR__.'/auth.php';
+\ No newline at end of file
+ require __DIR__.'/auth.php';
+\ No newline at end of file

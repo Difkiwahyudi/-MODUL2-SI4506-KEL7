@@ -28,13 +28,21 @@
                                         <li><a href="{{url('create_traveljourney')}}">Create Travel Journey</a></li>
                                     </ul>
                                 </li>
-
                                 @if (Route::has('login'))
 
                                 @auth
                                 <x-app-layout>
 
                                 </x-app-layout>
+                                <form action="#" method="POST">
+                    @csrf <!-- Laravel CSRF token -->
+                    <select name="language" id="language">
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="en">English</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+
                                 
 
                                 @else
