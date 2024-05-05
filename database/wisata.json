@@ -1,0 +1,446 @@
+{
+  "provinsi": [
+    {
+      "nama": "Aceh",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Gunung Leuser",
+          "deskripsi": "Taman nasional yang melindungi sebagian besar hutan hujan tropis di Aceh, habitat bagi berbagai spesies satwa langka seperti orangutan sumatera, harimau sumatera, dan gajah sumatera."
+        },
+        {
+          "nama": "Pantai Lampuuk",
+          "deskripsi": "Pantai yang terkenal dengan ombaknya yang cocok untuk berselancar, serta pemandangan matahari terbenam yang menakjubkan."
+        }
+      ]
+    },
+    {
+      "nama": "Sumatera Utara",
+      "wisata": [
+        {
+          "nama": "Danau Toba",
+          "deskripsi": "Danau vulkanik terbesar di dunia yang terkenal dengan keindahan alamnya, pulau Samosir di tengah danau, dan kebudayaan Batak."
+        },
+        {
+          "nama": "Taman Simalem Resort",
+          "deskripsi": "Resort yang menawarkan pemandangan indah pegunungan, air terjun, kebun buah, dan udara segar."
+        }
+      ]
+    },
+    {
+      "nama": "Sumatera Barat",
+      "wisata": [
+        {
+          "nama": "Pulau Mentawai",
+          "deskripsi": "Destinasi populer bagi penggemar selancar, dengan ombak yang terkenal di seluruh dunia."
+        },
+        {
+          "nama": "Danau Maninjau",
+          "deskripsi": "Danau vulkanik yang indah dikelilingi oleh perbukitan, cocok untuk menikmati pemandangan alam."
+        }
+      ]
+    },
+    {
+      "nama": "Riau",
+      "wisata": [
+        {
+          "nama": "Pulau Bintan",
+          "deskripsi": "Destinasi wisata yang terkenal dengan pantai berpasir putih dan resor mewah."
+        },
+        {
+          "nama": "Taman Nasional Bukit Tigapuluh",
+          "deskripsi": "Kawasan konservasi hutan hujan tropis yang penting untuk pelestarian berbagai spesies satwa langka."
+        }
+      ]
+    },
+    {
+      "nama": "Jambi",
+      "wisata": [
+        {
+          "nama": "Danau Kerinci",
+          "deskripsi": "Danau alami yang indah terletak di kaki Gunung Kerinci, dengan pemandangan pegunungan yang menakjubkan di sekitarnya."
+        },
+        {
+          "nama": "Taman Nasional Kerinci Seblat",
+          "deskripsi": "Taman nasional terbesar di Sumatera yang melindungi hutan hujan tropis yang kaya akan keanekaragaman hayati."
+        }
+      ]
+    },
+    {
+      "nama": "Sumatera Selatan",
+      "wisata": [
+        {
+          "nama": "Pulau Kemaro",
+          "deskripsi": "Pulau kecil yang terkenal dengan Pagoda Hok Tjing Rio, tempat ibadah Buddhis yang terletak di atasnya."
+        },
+        {
+          "nama": "Danau Ranau",
+          "deskripsi": "Danau yang menawarkan pemandangan alam yang indah dan beragam aktivitas outdoor, seperti berkemah dan memancing."
+        }
+      ]
+    },
+    {
+      "nama": "Bengkulu",
+      "wisata": [
+        {
+          "nama": "Pantai Panjang",
+          "deskripsi": "Pantai yang terkenal dengan pasir putihnya yang luas dan air laut yang jernih, cocok untuk berenang dan bersantai."
+        },
+        {
+          "nama": "Taman Nasional Bukit Barisan Selatan",
+          "deskripsi": "Taman nasional yang melindungi ekosistem hutan hujan tropis dan habitat bagi berbagai spesies satwa langka, seperti badak sumatera dan harimau sumatera."
+        }
+      ]
+    },
+    {
+      "nama": "Lampung",
+      "wisata": [
+        {
+          "nama": "Pulau Pahawang",
+          "deskripsi": "Destinasi snorkeling dan diving yang populer dengan terumbu karang yang indah dan keanekaragaman hayati bawah laut."
+        },
+        {
+          "nama": "Gunung Krakatau",
+          "deskripsi": "Gunung berapi aktif yang terkenal dengan letusan dahsyatnya pada tahun 1883, kini menjadi tujuan wisata alam dan hiking."
+        }
+      ]
+    },
+    {
+      "nama": "Kepulauan Bangka Belitung",
+      "wisata": [
+        {
+          "nama": "Pantai Tanjung Tinggi",
+          "deskripsi": "Pantai yang terkenal dengan batu granitnya yang besar-besar dan air laut yang jernih, cocok untuk berenang dan berjemur."
+        },
+        {
+          "nama": "Pulau Lengkuas",
+          "deskripsi": "Pulau kecil dengan mercusuar bersejarah dan pemandangan laut yang menakjubkan, tempat yang sempurna untuk snorkeling dan berenang."
+        }
+      ]
+    },
+    {
+      "nama": "Kepulauan Riau",
+      "wisata": [
+        {
+          "nama": "Pulau Natuna",
+          "deskripsi": "Gugusan pulau yang indah dengan pantai berpasir putih, terumbu karang yang berwarna-warni, dan kehidupan laut yang kaya."
+        },
+        {
+          "nama": "Pulau Bawah",
+          "deskripsi": "Destinasi wisata tersembunyi yang menawarkan keindahan alam bawah laut yang spektakuler dengan keanekaragaman hayati yang melimpah."
+        }
+      ]
+    },
+    {
+      "nama": "DKI Jakarta",
+      "wisata": [
+        {
+          "nama": "Monumen Nasional (Monas)",
+          "deskripsi": "Monumen yang menjadi simbol kota Jakarta, dengan observatorium di puncaknya dan museum di bawahnya yang menampilkan sejarah Indonesia."
+        },
+        {
+          "nama": "Taman Mini Indonesia Indah",
+          "deskripsi": "Taman rekreasi yang menampilkan miniatur bangunan dan budaya dari berbagai daerah di Indonesia, serta atraksi dan wahana permainan."
+        }
+      ]
+    },
+    {
+      "nama": "Jawa Barat",
+      "wisata": [
+        {
+          "nama": "Gunung Tangkuban Perahu",
+          "deskripsi": "Gunung berapi yang terkenal dengan kawahnya yang indah dan pemandangan alam yang menakjubkan."
+        },
+        {
+          "nama": "Kawah Putih",
+          "deskripsi": "Danau kawah vulkanik dengan air danau yang berwarna putih kehijauan, dikelilingi oleh hutan pegunungan yang rimbun."
+        }
+      ]
+    },
+    {
+      "nama": "Jawa Tengah",
+      "wisata": [
+        {
+          "nama": "Candi Borobudur",
+          "deskripsi": "Candi Buddha terbesar di dunia yang menjadi salah satu keajaiban dunia, dengan relief-relief yang indah dan pemandangan alam yang menakjubkan."
+        },
+        {
+          "nama": "Candi Prambanan",
+          "deskripsi": "Kompleks candi Hindu yang megah dan indah, yang terkenal dengan arsitektur yang mengagumkan dan cerita-cerita epiknya."
+        }
+      ]
+    },
+    {
+      "nama": "DI Yogyakarta",
+      "wisata": [
+        {
+          "nama": "Keraton Yogyakarta",
+          "deskripsi": "Keraton yang merupakan istana resmi Sultan Yogyakarta, dengan arsitektur Jawa klasik dan museum yang menampilkan sejarah kerajaan."
+        },
+        {
+          "nama": "Goa Jomblang",
+          "deskripsi": "Goa alam yang menakjubkan dengan lubang cahaya di langit-langitnya, di mana pengunjung dapat menikmati petualangan spelunking yang menegangkan."
+        }
+      ]
+    },
+    {
+      "nama": "Jawa Timur",
+      "wisata": [
+        {
+          "nama": "Bromo Tengger Semeru National Park",
+          "deskripsi": "Taman nasional yang terkenal dengan Gunung Bromo, kawah aktif yang mempesona, serta Gunung Semeru, gunung tertinggi di Pulau Jawa."
+        },
+        {
+          "nama": "Pantai Papuma",
+          "deskripsi": "Pantai yang terkenal dengan pasir putihnya yang halus dan pemandangan matahari terbit yang memukau."
+        }
+      ]
+    },
+    {
+      "nama": "Banten",
+      "wisata": [
+        {
+          "nama": "Pulau Umang",
+          "deskripsi": "Pulau privat yang menawarkan pengalaman liburan mewah dengan pantai indah, vila-vila mewah, dan fasilitas rekreasi."
+        },
+        {
+          "nama": "Kota Tua Jakarta",
+          "deskripsi": "Kawasan bersejarah yang terdiri dari bangunan-bangunan peninggalan kolonial Belanda, dengan museum, galeri seni, dan restoran."
+        }
+      ]
+    },
+    {
+      "nama": "Bali",
+      "wisata": [
+        {
+          "nama": "Pura Besakih",
+          "deskripsi": "Pura terbesar dan terpenting di Bali, dikenal sebagai 'Pura Agung Besakih', dengan arsitektur yang megah dan pemandangan gunung yang spektakuler."
+        },
+        {
+          "nama": "Pantai Kuta",
+          "deskripsi": "Pantai yang terkenal dengan ombaknya yang cocok untuk berselancar, serta suasana pantai yang ramai dengan restoran, bar, dan toko-toko."
+        }
+      ]
+    },
+    {
+      "nama": "Nusa Tenggara Barat",
+      "wisata": [
+        {
+          "nama": "Gili Trawangan",
+          "deskripsi": "Pulau terbesar dari tiga pulau Gili, dengan pantai berpasir putih yang indah, terumbu karang yang luar biasa, dan kehidupan malam yang menyenangkan."
+        },
+        {
+          "nama": "Taman Nasional Gunung Rinjani",
+          "deskripsi": "Taman nasional yang melindungi gunung berapi aktif Rinjani, danau kawahnya, dan ekosistem hutan hujan tropis yang kaya."
+        }
+      ]
+    },
+    {
+      "nama": "Nusa Tenggara Timur",
+      "wisata": [
+        {
+          "nama": "Pulau Komodo",
+          "deskripsi": "Destinasi utama untuk melihat hewan purba Komodo, terumbu karang yang indah, dan pemandangan laut yang spektakuler."
+        },
+        {
+          "nama": "Danau Kelimutu",
+          "deskripsi": "Danau vulkanik dengan air danau yang berubah-ubah warnanya, menciptakan pemandangan yang unik dan menakjubkan."
+        }
+      ]
+    },
+    {
+      "nama": "Kalimantan Barat",
+      "wisata": [
+        {
+          "nama": "Gunung Palung National Park",
+          "deskripsi": "Taman nasional yang melindungi hutan hujan tropis yang kaya akan keanekaragaman hayati, serta menyediakan jalur trekking dan pengamatan satwa liar."
+        },
+        {
+          "nama": "Pulau Derawan",
+          "deskripsi": "Destinasi diving yang populer dengan terumbu karang yang spektakuler, penyu laut, dan keanekaragaman hayati bawah laut yang melimpah."
+        }
+      ]
+    },
+    {
+      "nama": "Kalimantan Tengah",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Tanjung Puting",
+          "deskripsi": "Taman nasional yang terkenal dengan populasi orangutan yang besar, serta menyediakan pengalaman trekking dan klotok cruise di sungai."
+        },
+        {
+          "nama": "Danau Tahai",
+          "deskripsi": "Danau alami yang terletak di dalam hutan rawa gambut, tempat yang ideal untuk berburu dan pengamatan burung."
+        }
+      ]
+    },
+    {
+      "nama": "Kalimantan Selatan",
+      "wisata": [
+        {
+          "nama": "Pulau Laut",
+          "deskripsi": "Pulau yang menawarkan pantai berpasir putih, snorkeling yang spektakuler, dan kehidupan laut yang kaya."
+        },
+        {
+          "nama": "Pulau Bakut",
+          "deskripsi": "Pulau terpencil yang ideal untuk berlibur jauh dari keramaian, dengan pantai yang indah dan suasana yang tenang."
+        }
+      ]
+    },
+    {
+      "nama": "Kalimantan Timur",
+      "wisata": [
+        {
+          "nama": "Derawan Islands",
+          "deskripsi": "Gugusan pulau tropis yang indah dengan pantai berpasir putih, terumbu karang yang luar biasa, dan kehidupan laut yang beragam."
+        },
+        {
+          "nama": "Kutai National Park",
+          "deskripsi": "Taman nasional yang melindungi hutan hujan tropis dan sungai yang penting bagi ekosistem Kalimantan Timur, serta habitat bagi berbagai spesies satwa langka."
+        }
+      ]
+    },
+    {
+      "nama": "Kalimantan Utara",
+      "wisata": [
+        {
+          "nama": "Pulau Tarakan",
+          "deskripsi": "Pulau yang menawarkan pantai yang indah, diving yang spektakuler, dan kehidupan laut yang kaya."
+        },
+        {
+          "nama": "Pulau Derawan",
+          "deskripsi": "Destinasi diving yang populer dengan terumbu karang yang spektakuler, penyu laut, dan keanekaragaman hayati bawah laut yang melimpah."
+        }
+      ]
+    },
+    {
+      "nama": "Sulawesi Utara",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Bunaken",
+          "deskripsi": "Taman laut yang terkenal dengan keanekaragaman hayati bawah lautnya yang luar biasa, dengan berbagai spot diving yang menakjubkan."
+        },
+        {
+          "nama": "Pulau Bunaken",
+          "deskripsi": "Pulau kecil yang menjadi pintu gerbang utama menuju Taman Nasional Bunaken, dengan pantai berpasir putih dan pemandangan bawah laut yang spektakuler."
+        }
+      ]
+    },
+    {
+      "nama": "Sulawesi Tengah",
+      "wisata": [
+        {
+          "nama": "Danau Poso",
+          "deskripsi": "Danau terbesar di Sulawesi Tengah yang dikelilingi oleh pegunungan, dengan pemandangan alam yang menakjubkan dan beragam aktivitas outdoor."
+        },
+        {
+          "nama": "Taman Nasional Lore Lindu",
+          "deskripsi": "Taman nasional yang melindungi hutan hujan tropis dan berbagai spesies satwa langka, serta situs-situs megalitikum yang menarik."
+        }
+      ]
+    },
+    {
+      "nama": "Sulawesi Selatan",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Bantimurung Bulusaraung",
+          "deskripsi": "Taman nasional yang terkenal dengan keindahan alamnya, termasuk air terjun, gua, dan hutan khas Sulawesi Selatan."
+        },
+        {
+          "nama": "Tanjung Bira",
+          "deskripsi": "Pantai yang terkenal dengan pasir putihnya yang halus dan air laut yang jernih, cocok untuk bersnorkeling dan menyelam."
+        }
+      ]
+    },
+    {
+      "nama": "Sulawesi Tenggara",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Wakatobi",
+          "deskripsi": "Taman nasional yang terkenal dengan keindahan terumbu karangnya yang spektakuler dan keanekaragaman hayati bawah lautnya yang luar biasa."
+        },
+        {
+          "nama": "Pulau Muna",
+          "deskripsi": "Pulau yang menawarkan pantai berpasir putih yang indah dan kehidupan laut yang kaya, cocok untuk snorkeling dan diving."
+        }
+      ]
+    },
+    {
+      "nama": "Gorontalo",
+      "wisata": [
+        {
+          "nama": "Taman Laut Olele",
+          "deskripsi": "Destinasi diving yang populer dengan terumbu karang yang indah, penyu laut, dan berbagai spesies ikan warna-warni."
+        },
+        {
+          "nama": "Danau Limboto",
+          "deskripsi": "Danau alami yang indah dengan pemandangan pegunungan yang menakjubkan di sekitarnya, tempat yang ideal untuk piknik dan menikmati alam."
+        }
+      ]
+    },
+    {
+      "nama": "Sulawesi Barat",
+      "wisata": [
+        {
+          "nama": "Pantai Mandar",
+          "deskripsi": "Pantai yang terkenal dengan pasir putihnya yang halus, air laut yang jernih, dan pemandangan matahari terbenam yang memukau."
+        },
+        {
+          "nama": "Taman Nasional Gunung Tambora",
+          "deskripsi": "Taman nasional yang melindungi gunung berapi Tambora dan ekosistem hutan pegunungan yang kaya, serta menyediakan jalur hiking yang menantang."
+        }
+      ]
+    },
+    {
+      "nama": "Maluku",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Manusela",
+          "deskripsi": "Taman nasional yang melindungi hutan hujan tropis dan berbagai spesies satwa langka, serta menyediakan trekking dan pengamatan burung."
+        },
+        {
+          "nama": "Pulau Banda",
+          "deskripsi": "Destinasi bersejarah yang terkenal dengan keindahan alamnya, pantai-pantai yang indah, dan kehidupan bawah laut yang spektakuler."
+        }
+      ]
+    },
+    {
+      "nama": "Maluku Utara",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Pulau Ternate",
+          "deskripsi": "Taman nasional yang melindungi keanekaragaman hayati laut dan hutan bakau, serta menyediakan berbagai aktivitas seperti snorkeling dan hiking."
+        },
+        {
+          "nama": "Danau Limboto",
+          "deskripsi": "Danau alami yang indah dengan pemandangan pegunungan yang menakjubkan di sekitarnya, tempat yang ideal untuk piknik dan menikmati alam."
+        }
+      ]
+    },
+    {
+      "nama": "Papua Barat",
+      "wisata": [
+        {
+          "nama": "Teluk Cenderawasih",
+          "deskripsi": "Teluk terbesar di Indonesia yang terkenal dengan populasi ikan hiu paus yang unik, serta terumbu karang yang indah dan beragam."
+        },
+        {
+          "nama": "Raja Ampat Islands",
+          "deskripsi": "Gugusan pulau yang terkenal dengan keanekaragaman hayati bawah lautnya yang luar biasa, dengan spot diving yang tak tertandingi di dunia."
+        }
+      ]
+    },
+    {
+      "nama": "Papua",
+      "wisata": [
+        {
+          "nama": "Taman Nasional Lorentz",
+          "deskripsi": "Taman nasional yang merupakan Situs Warisan Dunia UNESCO, dengan keanekaragaman ekosistem yang luar biasa dan pemandangan alam yang epik."
+        },
+        {
+          "nama": "Danau Sentani",
+          "deskripsi": "Danau alami yang indah dengan pulau-pulau kecil di tengahnya, tempat yang ideal untuk menikmati matahari terbenam dan kehidupan khas Papua."
+        }
+      ]
+    }
+  ]
+}

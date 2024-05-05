@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="seach_icon">
-                    <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                <a href="/places">
                         <i class="fa fa-search"></i>
                     </a>
                 </div>
