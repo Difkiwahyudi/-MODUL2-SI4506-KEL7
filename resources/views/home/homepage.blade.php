@@ -113,8 +113,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb_70">
-                        <h3>Popular Destination</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+                        <h3>Rekomendasi Destinasi Untuk Kamu</h3>
+                        <p>Temukan Petualangan Baru! Rekomendasi Destinasi Terbaik untuk Kamu. Mulailah Hari dengan Pengalaman yang Tak Terlupakan!.</p>
                     </div>
                 </div>
             </div>
@@ -122,10 +122,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/1.png" alt="">
+                            <img src="img/destination/budaya.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html">  07 Places</a> </p>
+                            <p class="d-flex align-items-center">Sejarah & Budaya <a href="travel_destination.html"> Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -133,10 +133,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/2.png" alt="">
+                            <img src="img/destination/alam.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html">  03 Places</a> </p>
+                            <p class="d-flex align-items-center">Wisata Alam <a href="travel_destination.html">  Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -144,10 +144,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/3.png" alt="">
+                            <img src="img/destination/traditionalfood.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">America <a href="travel_destination.html">  10 Places</a> </p>
+                            <p class="d-flex align-items-center">Kuliner Lokal <a href="travel_destination.html">  Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -155,10 +155,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/4.png" alt="">
+                            <img src="img/destination/belanja.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html">  02 Places</a> </p>
+                            <p class="d-flex align-items-center">Tempat Belanja Unik <a href="travel_destination.html">  Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -166,10 +166,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/5.png" alt="">
+                            <img src="img/destination/roman.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html">  02 Places</a> </p>
+                            <p class="d-flex align-items-center">Destinasi Romantis <a href="travel_destination.html">  Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -177,10 +177,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="img/destination/6.png" alt="">
+                            <img src="img/destination/petualang.jpg" alt="" width="224" height="250">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html">  05 Places</a> </p>
+                            <p class="d-flex align-items-center">Petualangan Ekstrem <a href="travel_destination.html">  Find More..</a> </p>
                             
                         </div>
                     </div>
@@ -188,8 +188,12 @@
             </div>
         </div>
     </div>
+    <div class="more_place_btn text-center">
+                        <a class="boxed-btn4" href="#">More Places</a>
+                    </div>
     <!-- popular_destinon_area_end  -->
 
+<<<<<<< HEAD
     <!-- newletter_area_start  -->
     {{-- <div class="newletter_area overlay">
         <div class="container">
@@ -225,6 +229,9 @@
         </div>
     </div> --}}
     <!-- newletter_area_end  -->
+=======
+    
+>>>>>>> 938c2da411919d0d133a770f072b255a271235bd
 
     <div class="popular_places_area">
         <div class="container">
@@ -690,7 +697,7 @@
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Templatee is licensed under CC BY 3.0. -->
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                 </div>

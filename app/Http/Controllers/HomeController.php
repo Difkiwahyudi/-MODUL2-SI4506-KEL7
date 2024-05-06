@@ -39,6 +39,7 @@ class HomeController extends Controller
         return view('home.homepage');
     }
    
+<<<<<<< HEAD
     ##Travel journey create
     public function create_traveljourney()
     {
@@ -46,3 +47,11 @@ class HomeController extends Controller
 
     }
 }
+=======
+    public function create_traveljourney()
+    {
+        return view('home.create_traveljourney');
+    }
+   
+}
+>>>>>>> 938c2da411919d0d133a770f072b255a271235bd

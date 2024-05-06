@@ -18,6 +18,7 @@
     </header>
     <!-- header-end -->
 
+<<<<<<< HEAD
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
@@ -561,6 +562,23 @@
         </div>
     </div>
 
+=======
+    <!-- PENGISIAN FORM-->
+    <h2>Add Post</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br><br>
+        
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="image">Add Image:</label><br>
+        <input type="file" id="image" name="image"><br><br>
+        
+        <input type="submit" value="Add Post">
+    </form>
+    <!-- PENGISIAN FORM END-->
+>>>>>>> 938c2da411919d0d133a770f072b255a271235bd
 
 
     <footer class="footer">

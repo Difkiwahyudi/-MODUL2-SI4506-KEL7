@@ -32,7 +32,23 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+use App\Http\Controllers\PlaceController;
+
+Route::get('/search', [PlaceController::class, 'search'])->name('search');
+
+Route::get('/places', [PlaceController::class, 'index']);
+
+Route::get('/search-places', [PlaceController::class, 'apiSearch'])->name('api.search.places');
+
+Route::delete('/remove-history', [PlaceController::class, 'removeHistory'])->name('remove.history');
+
+Route::get('/output', function () {
+    $searchResult = session('search_result', []);
+    return view('output', compact('searchResult'));
+})->name('output');
+
 require __DIR__.'/auth.php';
+<<<<<<< HEAD
 
 Route::get('/wisata_list_inf_lengkuas', function () {
     return view('trip_information.wisata_list_inf_lengkuas');
@@ -48,3 +64,5 @@ Route::get('/wisata_list_inf_situpattenggang', function () {
 
 ##Routing create travel journey
 Route::get('/create_traveljourney', [HomeController::class, 'create_traveljourney']);
+=======
+>>>>>>> 938c2da411919d0d133a770f072b255a271235bd

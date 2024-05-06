@@ -22,20 +22,35 @@
                                             <li><a href="elements.html">elements</a></li>
                                     </ul>
                                 </li>
+<<<<<<< HEAD
                                 <li><a href="#">Travel Journey<i class="ti-angle-down"></i></a>
                                     <ul class="submenu">
                                         <li><a href="blog.html">Travel Journey</a></li>
                                         {{-- ini untuk create travel Journey --}}
                                         <li><a href="{{url('create_traveljouney')}}">Create Travel Journey</a></li>
+=======
+                                <li><a href="#">Travel journey <i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="blog.html">Travel Journey</a></li>
+                                        <li><a href="{{url('create_traveljourney')}}">Create Travel Journey</a></li>
+>>>>>>> 938c2da411919d0d133a770f072b255a271235bd
                                     </ul>
                                 </li>
-
                                 @if (Route::has('login'))
 
                                 @auth
                                 <x-app-layout>
 
                                 </x-app-layout>
+                                <form action="#" method="POST">
+                    @csrf <!-- Laravel CSRF token -->
+                    <select name="language" id="language">
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="en">English</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+
                                 
 
                                 @else
@@ -67,7 +82,7 @@
                     </div>
                 </div>
                 <div class="seach_icon">
-                    <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                <a href="/places">
                         <i class="fa fa-search"></i>
                     </a>
                 </div>

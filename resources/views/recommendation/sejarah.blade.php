@@ -111,13 +111,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text text-center">
-<<<<<<< HEAD
-                        <h3>Destinasi Wisata Indonesia</h3>
-                        <p>Platform destinasi Indonesia untuk kamu yang ingin liburan</p>
-=======
-                        <h3>Destinasi Indonesia</h3>
-                        <p>Pixel perfect design with awesome contents</p>
->>>>>>> dcd2d496681f1d30dd1535c6e9de628c573b5e62
+                        <h3>Destinations</h3>
+                        <p>Nikmati Pesona Destinasi dan Alam Indonesia</p>
                     </div>
                 </div>
             </div>
@@ -126,12 +121,12 @@
     <!--/ bradcam_area  -->
 
     <!-- where_togo_area_start  -->
-    <!-- <div class="where_togo_area">
+    <div class="where_togo_area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="form_area">
-                        <h3></h3>
+                        <h3>Where you want to go?</h3>
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -158,7 +153,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- where_togo_area_end  -->
 
 
@@ -220,7 +215,7 @@
                                     <a href="#" class="prise">Rp400.000</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="wisata_list_inf_lengkuas"><h3>Lengkuas</h3></a>
+                                    <a href="destination_details.html"><h3>Lengkuas</h3></a>
                                     <p>Salah satu pulau kecil yang memiliki pemandangan indah di Belitung</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -383,7 +378,7 @@
     </div>
 
         <!-- newletter_area_start  -->
-        <!-- <div class="newletter_area overlay">
+        <div class="newletter_area overlay">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-10">
@@ -415,14 +410,14 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- newletter_area_end  -->
-    <!-- <div class="recent_trip_area">
+    <div class="recent_trip_area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb_70">
-                        <h3>Destinasi Terkini</h3>
+                        <h3>Recent Trips</h3>
                     </div>
                 </div>
             </div>
@@ -477,7 +472,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
 
